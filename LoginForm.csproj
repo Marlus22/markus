@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EC5989D3-A6F4-43C7-9289-11AC58361557}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LoginForm</RootNamespace>
+    <AssemblyName>LoginForm</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCoffeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCoffeeForm.Designer.cs">
+      <DependentUpon>AddCoffeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BDash.Designer.cs">
+      <DependentUpon>BDash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BOrders.Designer.cs">
+      <DependentUpon>BOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CDash.Designer.cs">
+      <DependentUpon>CDash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CHistory.Designer.cs">
+      <DependentUpon>CHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cmonth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cmonth.Designer.cs">
+      <DependentUpon>Cmonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoffeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoffeeForm.Designer.cs">
+      <DependentUpon>CoffeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmForm.Designer.cs">
+      <DependentUpon>ConfirmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CPOS.Designer.cs">
+      <DependentUpon>CPOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Csales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Csales.Designer.cs">
+      <DependentUpon>Csales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerForm.Designer.cs">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cyear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cyear.Designer.cs">
+      <DependentUpon>Cyear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardForm.Designer.cs">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DOForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DOForm.Designer.cs">
+      <DependentUpon>DOForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forgotPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forgotPasswordForm.Designer.cs">
+      <DependentUpon>forgotPasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoryForm.Designer.cs">
+      <DependentUpon>HistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InAndOutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InAndOutForm.Designer.cs">
+      <DependentUpon>InAndOutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryForm.Designer.cs">
+      <DependentUpon>InventoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginForm.Designer.cs">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Month.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Month.Designer.cs">
+      <DependentUpon>Month.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtpVerificationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtpVerificationForm.Designer.cs">
+      <DependentUpon>OtpVerificationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POSForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POSForm.Designer.cs">
+      <DependentUpon>POSForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResetPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResetPasswordForm.Designer.cs">
+      <DependentUpon>ResetPasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesForm.Designer.cs">
+      <DependentUpon>SalesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetOrderForm.Designer.cs">
+      <DependentUpon>SetOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TotalIngredientsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TotalIngredientsForm.Designer.cs">
+      <DependentUpon>TotalIngredientsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Year.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Year.Designer.cs">
+      <DependentUpon>Year.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddCoffeeForm.resx">
+      <DependentUpon>AddCoffeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BDash.resx">
+      <DependentUpon>BDash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BOrders.resx">
+      <DependentUpon>BOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CDash.resx">
+      <DependentUpon>CDash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CHistory.resx">
+      <DependentUpon>CHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cmonth.resx">
+      <DependentUpon>Cmonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoffeeForm.resx">
+      <DependentUpon>CoffeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmForm.resx">
+      <DependentUpon>ConfirmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPOS.resx">
+      <DependentUpon>CPOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Csales.resx">
+      <DependentUpon>Csales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerForm.resx">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cyear.resx">
+      <DependentUpon>Cyear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardForm.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DOForm.resx">
+      <DependentUpon>DOForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forgotPasswordForm.resx">
+      <DependentUpon>forgotPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryForm.resx">
+      <DependentUpon>HistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InAndOutForm.resx">
+      <DependentUpon>InAndOutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryForm.resx">
+      <DependentUpon>InventoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginForm.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Month.resx">
+      <DependentUpon>Month.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtpVerificationForm.resx">
+      <DependentUpon>OtpVerificationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POSForm.resx">
+      <DependentUpon>POSForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ResetPasswordForm.resx">
+      <DependentUpon>ResetPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesForm.resx">
+      <DependentUpon>SalesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetOrderForm.resx">
+      <DependentUpon>SetOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TotalIngredientsForm.resx">
+      <DependentUpon>TotalIngredientsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Year.resx">
+      <DependentUpon>Year.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\460130162_122095454768537883_8055968607088583724_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4634986_moneys_financial_layers_money_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\309041_users_group_people_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9035117_person_icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
